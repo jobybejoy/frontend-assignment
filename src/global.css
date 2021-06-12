@@ -1,0 +1,21 @@
+:root{
+  --primary-font-family: 'Inter', sans-serif;
+
+  --primary-bg-color: #FFFFFF;
+
+  --primary-font-color: #000000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
+
+  background-color: var(--primary-bg-color);
+  color: var(--primary-font-color)
+}
+
