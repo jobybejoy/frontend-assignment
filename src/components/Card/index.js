@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Card.css"
 
-export default function Card({ title, img_src, rating }) {
+export default function Card({ title, img_src, rating, onClick }) {
   return (
-    <div className="card">
+    <div className="card" onClick={onClick} tabIndex="0">
       <div className="card_image_container">
         <img src={img_src} alt="" />
       </div>

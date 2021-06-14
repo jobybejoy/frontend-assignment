@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.card:focus{
+  outline-offset: 5px;
+}
+
 .card .card_image_container{
   position: relative;
   padding-bottom: 150%; /* 3:2 ratio */
