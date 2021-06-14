@@ -5,7 +5,7 @@ function Header({ query, onChangeHander }) {
   return (
     <header className="header">
       <img src={logo} alt="Timescale" />
-      <input className="search_input" type="text" name="search" placeholder="Search for a movie" value={query} onChange={onChangeHander} />
+      <input className="search_input" type="text" name="search" placeholder="Search for a movie" value={query} onChange={onChangeHander} aria-label="Search for a movie" />
     </header>
   )
 }

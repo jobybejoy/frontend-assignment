@@ -5,6 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.header img{
+  margin-right: 10px;
 }
 
 .search_input{
@@ -29,3 +35,17 @@
 .search_input:focus{
   border-color: var(--primary-font-color);
 }
+
+@media only screen and (max-width: 383px) {
+  .search_input{
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .search_input{
+    width: initial;
+    margin-top: 8px;
+  }
+}
+
